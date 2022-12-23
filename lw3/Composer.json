@@ -1,0 +1,27 @@
+{
+    "name": "1/lw3",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "1\\Lw3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AXONIX",
+            "email": "valiev273@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Serganatr/library"
+        }
+    ],
+    "require": {
+        "user/lw2": "dev-main"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "1.9"
+    }
+}
